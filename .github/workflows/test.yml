@@ -11,4 +11,6 @@ jobs:
         run: echo $NAME
       - name: print name again
         run: echo $NAME
+      - name: Use password
+        run: echo ${{ secrets.PASSWORD }}
       
